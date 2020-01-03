@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Read or load Dataset
-titanic_data=pd.read_csv("C:/Users/Admin/Desktop/ML/ML_programs/LogisticReg/titanic_passenger_data.csv")
+titanic_data=pd.read_csv("titanic_passenger_data.csv")
 
 #Analyzing and Convert categorical variable into dummy/indicator variables
 Pcl=pd.get_dummies(titanic_data['Pclass'],drop_first=True)
