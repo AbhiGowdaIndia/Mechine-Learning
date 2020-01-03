@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 import seaborn as sns
 
 #load dataset from csv
-df=pd.read_csv("C:/Users/Admin/Desktop/ML/ML_programs/LogisticReg/daily_weather.csv")
+df=pd.read_csv("daily_weather.csv")
 
 #data cleaning
 df.drop('number',axis=1,inplace=True)
