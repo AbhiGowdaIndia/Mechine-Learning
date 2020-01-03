@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 import seaborn as sns
 
 # Loading dataset from csv
-df=pd.read_csv("C:/Users/Admin/Desktop/ML/ML_programs/DecisionTree/kyphosis_data.csv")
+df=pd.read_csv("kyphosis_data.csv")
 
 # extracting independent variables
 #split dataset into dependent and independent variables
