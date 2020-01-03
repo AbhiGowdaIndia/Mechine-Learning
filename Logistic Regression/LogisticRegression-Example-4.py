@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score
 
 # Loading dataset from csv
-df=pd.read_csv("C:/Users/Admin/Desktop/ML/ML_programs/LogisticReg/data.csv")
+df=pd.read_csv("data.csv")
 
 #split data into dependent and independent values
 x=df.drop("gender",axis=1)
