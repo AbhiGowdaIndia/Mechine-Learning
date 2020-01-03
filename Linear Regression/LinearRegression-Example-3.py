@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Read Dataset
-ds=pd.read_csv("C:/Users/Admin/Desktop\ML/ML_programs/LinearReg/train_data.csv")
+ds=pd.read_csv("train_data.csv")
 
 #split data into x and Y axis
 x=ds.iloc[:,:-1].values
