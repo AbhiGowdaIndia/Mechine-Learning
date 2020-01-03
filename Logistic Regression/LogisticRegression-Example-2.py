@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 import seaborn as sns
 
 # Loading dataset from csv
-dataset=pd.read_csv("C:/Users/Admin/Desktop/ML/ML_programs/LogisticReg/SocialNetworkAds.csv")
+dataset=pd.read_csv("SocialNetworkAds.csv")
 
 # extracting independent variables
 X = dataset.iloc[:,[2,3]].values
