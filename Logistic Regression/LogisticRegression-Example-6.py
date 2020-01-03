@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #load Dataset from CSV
-df = pd.read_csv("C:/Users/Admin/Desktop/ML/ML_programs/LogisticReg/Classified_Data.csv")
+df = pd.read_csv("Classified_Data.csv")
 
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
