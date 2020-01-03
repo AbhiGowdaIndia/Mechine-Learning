@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.metrics import mean_absolute_error,mean_squared_error,explained_variance_score,r2_score
 
 # Importing the dataset
-dataset=pd.read_csv("C:/Users/Admin/Desktop/ML/ML_programs/LogisticReg/Position_Salaries.csv")
+dataset=pd.read_csv("Position_Salaries.csv")
 
 x = dataset.iloc[:, 1:2].values
 y = dataset.iloc[:, 2].values
